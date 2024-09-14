@@ -1,0 +1,133 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Banner */
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text h2 {
+    font-size: 2.5rem;
+}
+
+.banner-text input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+}
+
+/* Kategori */
+.kategori {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.kategori-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.kategori-item {
+    flex-basis: 30%;
+}
+
+.kategori-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.kategori-item h3 {
+    margin-top: 10px;
+}
+
+/* Resep Unggulan */
+.resep-unggulan {
+    padding: 20px;
+}
+
+.resep-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.resep-item {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.resep-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.resep-item h3 {
+    margin: 10px 0;
+}
+
+.resep-item p {
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
